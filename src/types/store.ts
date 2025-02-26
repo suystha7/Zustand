@@ -1,4 +1,4 @@
-import { CartSlice } from '@/store/cart-slice';
-import { UserSlice } from '@/store/user-slice';
+import { CartSlice } from "@/store/cartSlice";
+import { UserSlice } from "@/store/userSlice";
 
 export type Store = UserSlice & CartSlice;
